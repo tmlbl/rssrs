@@ -26,7 +26,7 @@ impl ReaderConfig {
 
 #[derive(Serialize, Deserialize, Debug)]
 pub struct FeedConfig {
-    url: String,
+    pub url: String,
 }
 
 pub fn load_config() -> ReaderConfig {
